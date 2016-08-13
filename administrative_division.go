@@ -3599,7 +3599,7 @@ func init() {
 }
 
 // 获得所有省名
-func Getprovinces() []string {
+func GetProvinces() []string {
 
 	return provinces
 }
