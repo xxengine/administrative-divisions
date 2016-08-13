@@ -7,7 +7,7 @@
 
 ## 安装
 
-go get -v gopkg.in/orivil/administrative_divisions.v0
+go get -v github.com/orivil/administrative-divisions
 
 
 > **Note:** 如果中国地区用户出现 godoc.org/golang.org/x/net 包不能下载的情况，可选择从 GitHub 下载(go get -v github.com/golang/net)，
@@ -21,7 +21,7 @@ go get -v gopkg.in/orivil/administrative_divisions.v0
 package main
 
 import (
-	"gopkg.in/orivil/administrative-divisions.v0"
+	"github.com/orivil/administrative-divisions"
 	"fmt"
 )
 
