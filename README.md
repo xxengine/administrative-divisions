@@ -26,7 +26,7 @@ import (
 )
 
 func main() {
-	provinces := administrative_divisions.Getprovinces()
+	provinces := administrative_divisions.GetProvinces()
 	for _, province := range provinces {
 		// 打印省名
 		fmt.Printf("%s\n", province)
